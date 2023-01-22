@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: #40514E;
+}
+
+.top-container {
+    padding-top: 100px;
+    position: relative;
+    background-color: #FAFDD6;
+}
+
+h1 {
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    color: #E6BA95;
+    line-height: 2;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2,5rem;
+    color: #818f6e;
+    font-weight: bold;
+    padding: 30px 0px;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #A2B38B;
+    padding: 20px 0px;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    line-height: 2;
+}
+
+a {
+    color: #778367;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 20px 15px;
+}
+
+a:hover {
+    color: white;
+    transition: color .5s;
+}
+
+hr {
+    width: 10%;
+    border-style: dotted none none;
+    border-width: 7px;
+    border-color: lightgrey;
+    margin-bottom: 30px;
+}
+
+.profile {
+    margin: 70px auto;
+    width: 40%;
+}
+
+.middle-container {
+
+}
+
+
+
+.skill-row {
+    width: 50%;
+    margin: 50px auto;
+    text-align: start;
+    line-height: 2;
+}
+
+.bag {
+    float: right;
+    margin-left: 30px;
+    width: 25%;
+}
+
+.code {
+    float: left;
+    margin-right: 30px;
+    width: 25%;
+}
+
+
+.bottom-container {
+    background-color: #A2B38B;
+    color: white;
+    padding: 20px;
+}
+
+.contact-me {
+    margin: 100px auto;
+    width: 40%;
+}
+
+.btn {
+    background-color: rgb(252, 175, 124);
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    border-radius: 8px;
+    margin: 20px;
+    display: inline-block;
+}
+
+.btn:hover {
+    background-color: #A2B38B;
+    color: white;
+    transition: background-color .5s;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 250px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 280px;
+    top: 50px;
+}
+
+.profile-photo {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}
